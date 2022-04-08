@@ -938,8 +938,31 @@
 "Wefun",
 "Yotta Games",
 "Gemscool Voucher"]
-            })
-        });
+            var countriesArray = ["Indonesia"]
+                $('#games').select2({
+                    data: gamesArray
+                });
+    
+                $('#country').select2({
+                    data: ["Telkomsel",
+    "Indosat",
+    "DANA",
+    "GoPay",
+    "Shopee-Pay",
+    "Bank Transfer",
+    "OVO",
+    "Tri Indonesia",
+    "XL",
+    "Alfamart",
+    "Smartfren",
+    "Indomaret",
+    "Kartu Kredit",
+    "LinkAja",
+    "Kredivo",
+    "DOKU Wallet",
+    "True Money Agent Network"]
+                })
+            });
 
         function back() {
             window.parent.postMessage(
